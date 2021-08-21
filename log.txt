@@ -1,0 +1,576 @@
+﻿----------------------------------------------------------
+Date: 08/20/2021 14:02:12
+Job Titles: Software Engineer;AI Engineer
+Job Functions: IT and Software; Media
+Minimum: 2 Years, 0 Months
+Maximum: 4 Years,  0 Months
+Education (Minimum): 5
+Education (Maximum): 10
+Year of Graduation (Minimum): 2000
+Year of Graduation (Maximum): 2021
+Skills: Python;PHP;Javascript
+Last online Activity: 180
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: False
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 14:25:02
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): 0
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 14:32:33
+Job Titles: aaa
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): 0
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 16:35:27
+Job Titles: 
+Job Functions: 
+Minimum: 2 Years, 0 Months
+Maximum: 4 Years,  0 Months
+Education (Minimum): 1
+Education (Maximum): 5
+Year of Graduation (Minimum): 2020
+Year of Graduation (Maximum): 2021
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 16:36:22
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): 0
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 17:15:38
+Job Titles: 
+Job Functions: 
+Minimum: 2 Years, 3 Months
+Maximum: 2 Years,  1 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 17:20:42
+Job Titles: 
+Job Functions: 
+Minimum: 1 Years, 2 Months
+Maximum: 1 Years,  1 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 17:29:36
+Job Titles: aaa
+Job Functions: aaa;bbb
+Minimum: 2 Years, 4 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 17:34:12
+Job Titles: aaa
+Job Functions: aaa;bbb
+Minimum: 0 Years, 0 Months
+Maximum: 2 Years,  4 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 17:38:21
+Job Titles: aaa;bbb
+Job Functions: aaa;bbb
+Minimum: 0 Years, 0 Months
+Maximum: 2 Years,  4 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 17:57:20
+Job Titles: aaa;bbb
+Job Functions: bbb;ccc
+Minimum: 2 Years, 4 Months
+Maximum: 3 Years,  10 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 18:04:25
+Job Titles: aaa;bbb
+Job Functions: 
+Minimum: 2 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): 1
+Education (Maximum): 4
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 18:10:08
+Job Titles: aaa;bbb
+Job Functions: ccc;ddd
+Minimum: 2 Years, 4 Months
+Maximum: 3 Years,  9 Months
+Education (Minimum): 5
+Education (Maximum): 12
+Year of Graduation (Minimum): 2015
+Year of Graduation (Maximum): 2018
+Skills: php;mysql
+Last online Activity: 30
+Locations: bandung;jakarta
+Actively Looking for a jobs: False
+Passively Looking for a jobs: False
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 18:40:16
+Job Titles: aaa;bbb
+Job Functions: ccc;ddd
+Minimum: 2 Years, 4 Months
+Maximum: 5 Years,  6 Months
+Education (Minimum): 4
+Education (Maximum): 12
+Year of Graduation (Minimum): 2015
+Year of Graduation (Maximum): 2021
+Skills: php;mysql
+Last online Activity: 180
+Locations: jakarta;bandung
+Actively Looking for a jobs: False
+Passively Looking for a jobs: False
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 18:45:01
+Job Titles: aaa;bbb
+Job Functions: ccc;ddd
+Minimum: 2 Years, 3 Months
+Maximum: 2 Years,  4 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 30
+Locations: bandung;jakarta
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 18:51:37
+Job Titles: aaa;bbb;ccc
+Job Functions: ddd;eee
+Minimum: 2 Years, 1 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: bandung;jakarta
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 18:53:38
+Job Titles: aaa;bb;cc;dd
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): 2
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 2022
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 19:44:27
+Job Titles: aaa
+Job Functions: bbb
+Minimum: 2 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 2010
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: bandung
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 19:46:41
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: bandung
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 19:48:44
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: bbb
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 19:52:08
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: bbbb
+Actively Looking for a jobs: True
+Passively Looking for a jobs: False
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 19:52:58
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: bbb
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 19:54:38
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: bbbb
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:28:28
+Job Titles: 
+Job Functions: aaa
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:30:42
+Job Titles: 
+Job Functions: axaxa
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:33:39
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:39:03
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:43:14
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:45:33
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:49:04
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:54:35
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 20:57:35
+Job Titles: Software Engineer; DevOps
+Job Functions: IT and Software; Media
+Minimum: 2 Years, 0 Months
+Maximum: 4 Years,  0 Months
+Education (Minimum): 0
+Education (Maximum): 8
+Year of Graduation (Minimum): 2015
+Year of Graduation (Maximum): 2021
+Skills: Javascript;php;python
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/20/2021 21:01:10
+Job Titles: IT Support; Devops
+Job Functions: 
+Minimum: 2 Years, 0 Months
+Maximum: 4 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/21/2021 16:31:07
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/21/2021 16:33:28
+Job Titles: 
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/21/2021 16:39:24
+Job Titles: Software Engineer
+Job Functions: 
+Minimum: 2 Years, 0 Months
+Maximum: 4 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
