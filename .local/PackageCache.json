@@ -226,6 +226,18 @@
     },
     {
       "Package": {
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities/1.4.0\\lib/net461/UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities/1.4.0\\lib/net461/UiPath.Python.Activities.dll",
+        "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities/1.4.0\\lib/net461/UiPath.Python.dll"
+      ],
+      "Path": "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities\\1.4.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
         "Version": "21.6.1-preview"
       },
@@ -2127,6 +2139,11 @@
         }
       ]
     },
+    "UiPath.Python.Activities": {
+      "Id": "UiPath.Python.Activities",
+      "Version": "1.4.0",
+      "Dependencies": []
+    },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
       "Version": "21.6.1-preview",
@@ -3900,6 +3917,18 @@
         "C:\\Users\\rizky\\.nuget\\packages\\uipath.presentations.activities\\1.1.5\\lib\\net461\\UiPath.Presentations.dll"
       ],
       "Path": "C:\\Users\\rizky\\.nuget\\packages\\uipath.presentations.activities\\1.1.5"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities\\1.4.0\\lib\\net461\\UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities\\1.4.0\\lib\\net461\\UiPath.Python.Activities.dll",
+        "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities\\1.4.0\\lib\\net461\\UiPath.Python.dll"
+      ],
+      "Path": "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities\\1.4.0"
     },
     {
       "Package": {

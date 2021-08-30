@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eM8xX1VObq3U32/jCWU6TlvSu1yWdm4AXqybLbyaeXEHXSwzJiO00E+b59TloM8BRTWeVHpuZGh61QCNAkCS0g==",
+  "dgSpecHash": "x8adrwMXeJ1cc9L/j5n+MhOkkLEzTw71xJjaN803qMn4TYHD/N2YYmGZJM06nF20wgAONasAvP38toQLRjV1Cg==",
   "success": false,
   "projectFilePath": "C:\\Users\\rizky\\OneDrive\\Documents\\UiPath\\ReFrameWork\\.local\\",
   "expectedPackageFiles": [
@@ -159,6 +159,7 @@
     "C:\\Users\\rizky\\.nuget\\packages\\uipath.persistence.activities\\1.2.2\\uipath.persistence.activities.1.2.2.nupkg.sha512",
     "C:\\Users\\rizky\\.nuget\\packages\\uipath.platform\\21.6.0-preview\\uipath.platform.21.6.0-preview.nupkg.sha512",
     "C:\\Users\\rizky\\.nuget\\packages\\uipath.presentations.activities\\1.1.5\\uipath.presentations.activities.1.1.5.nupkg.sha512",
+    "C:\\Users\\rizky\\.nuget\\packages\\uipath.python.activities\\1.4.0\\uipath.python.activities.1.4.0.nupkg.sha512",
     "C:\\Users\\rizky\\.nuget\\packages\\uipath.system.activities\\21.6.1-preview\\uipath.system.activities.21.6.1-preview.nupkg.sha512",
     "C:\\Users\\rizky\\.nuget\\packages\\uipath.telemetry.client\\1.3.18\\uipath.telemetry.client.1.3.18.nupkg.sha512",
     "C:\\Users\\rizky\\.nuget\\packages\\uipath.testing.activities\\1.3.3\\uipath.testing.activities.1.3.3.nupkg.sha512",

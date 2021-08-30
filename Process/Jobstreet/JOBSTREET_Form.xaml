@@ -1,0 +1,392 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="JOBSTREET_Form" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ufa="clr-namespace:UiPath.Form.Activities;assembly=UiPath.Form.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:upaq="clr-namespace:UiPath.Persistence.Activities.Queue;assembly=UiPath.Persistence.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>798.4,2252.8</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>JOBSTREET_Form_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="66">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Form.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>UiPath.Persistence.Orchestrator.Client.Models</x:String>
+      <x:String>UiPath.Persistence.Activities.Queue</x:String>
+      <x:String>UiPath.Persistence.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="64">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Form.Activities</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
+      <AssemblyReference>UiPath.MobileAutomation</AssemblyReference>
+      <AssemblyReference>UiPath.Python</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Orchestrator.Client</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="JOBSTREET_Form" sap:VirtualizedContainerService.HintSize="540.8,2088" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="config" />
+      <Variable x:TypeArguments="x:String" Name="outputForm" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="499.2,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[config]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[in_Config]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="499.2,1895.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <ufa:FormActivity Dismissed="{x:Null}" FormFieldsInputData="{x:Null}" FormTitle="{x:Null}" LocalCSSFilePath="{x:Null}" SelectedButton="{x:Null}" TimeoutInSeconds="{x:Null}" WindowPositionLeft="{x:Null}" WindowPositionTop="{x:Null}" DisableMaximizeButton="False" DisableMinimizeButton="False" DisplayName="Form for Jobstreet" FormFieldsOutputData="[outputForm]" FormHeight="579" FormSchema="%[{&quot;label&quot;:&quot;HTML&quot;,&quot;attrs&quot;:[{&quot;attr&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}],&quot;content&quot;:&quot;&lt;img src=\&quot;https://www.idstar.co.id/wp-content/uploads/2019/01/logo_small-1.jpg\&quot;&gt;&quot;,&quot;refreshOnChange&quot;:false,&quot;key&quot;:&quot;html&quot;,&quot;type&quot;:&quot;htmlelement&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false},{&quot;label&quot;:&quot;HTML&quot;,&quot;attrs&quot;:[{&quot;attr&quot;:&quot;&quot;,&quot;value&quot;:&quot;&quot;}],&quot;content&quot;:&quot;&lt;img src=\&quot;https://www.jobstreet.co.id/id/cms/employer/wp-content/themes/jobstreet-employer/assets/images/logo-jobstreet.svg?v=1\&quot;&gt;&quot;,&quot;refreshOnChange&quot;:false,&quot;key&quot;:&quot;html1&quot;,&quot;type&quot;:&quot;htmlelement&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;keyModified&quot;:true},{&quot;label&quot;:&quot;Posisi&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (Jabatan Posisi; Keahlian; Kata Kunci).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;jobTitles&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Kewarganegaraan&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (Indoneisa; Singapura; Malaysia).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;kewarganegaraan&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Preferensi Lokasi Kerja&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (Jakarta; Bandung; Yogyakarta).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;preferensiKerja&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Industri&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (Konsultasi; Asuransi; Perbankan).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;industri&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;title&quot;:&quot;Gaji&quot;,&quot;collapsible&quot;:false,&quot;key&quot;:&quot;gaji1&quot;,&quot;type&quot;:&quot;panel&quot;,&quot;label&quot;:&quot;Panel&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;components&quot;:[{&quot;label&quot;:&quot;Mata Uang&quot;,&quot;placeholder&quot;:&quot;Mata Uang&quot;,&quot;tableView&quot;:true,&quot;data&quot;:{&quot;values&quot;:[{&quot;label&quot;:&quot;HKD&quot;,&quot;value&quot;:&quot;hkd&quot;},{&quot;label&quot;:&quot;IDR&quot;,&quot;value&quot;:&quot;idr&quot;},{&quot;label&quot;:&quot;MYR&quot;,&quot;value&quot;:&quot;myr&quot;},{&quot;label&quot;:&quot;SGD&quot;,&quot;value&quot;:&quot;sgd&quot;},{&quot;label&quot;:&quot;USD&quot;,&quot;value&quot;:&quot;usd&quot;},{&quot;label&quot;:&quot;PHP&quot;,&quot;value&quot;:&quot;php&quot;},{&quot;label&quot;:&quot;VND&quot;,&quot;value&quot;:&quot;vnd&quot;}]},&quot;validate&quot;:{&quot;onlyAvailableItems&quot;:false},&quot;key&quot;:&quot;mataUang&quot;,&quot;type&quot;:&quot;select&quot;,&quot;indexeddb&quot;:{&quot;filter&quot;:{}},&quot;input&quot;:true,&quot;defaultValue&quot;:&quot;idr&quot;},{&quot;columns&quot;:[{&quot;components&quot;:[{&quot;label&quot;:&quot;Minimal&quot;,&quot;tableView&quot;:false,&quot;delimiter&quot;:false,&quot;requireDecimal&quot;:false,&quot;key&quot;:&quot;minimalGaji&quot;,&quot;type&quot;:&quot;number&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;md&quot;},{&quot;components&quot;:[{&quot;label&quot;:&quot;Maksimal&quot;,&quot;tableView&quot;:false,&quot;delimiter&quot;:false,&quot;requireDecimal&quot;:false,&quot;key&quot;:&quot;maksimalGaji&quot;,&quot;type&quot;:&quot;number&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;md&quot;}],&quot;autoAdjust&quot;:true,&quot;key&quot;:&quot;columns4&quot;,&quot;type&quot;:&quot;columns&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Columns&quot;}]},{&quot;label&quot;:&quot;Bahasa&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (Bahasa Indoneia; English; Japanese).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;bahasa&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;title&quot;:&quot;Tahun Pengalaman&quot;,&quot;collapsible&quot;:false,&quot;key&quot;:&quot;tahunpengalaman&quot;,&quot;type&quot;:&quot;panel&quot;,&quot;label&quot;:&quot;Minimum&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;components&quot;:[{&quot;columns&quot;:[{&quot;components&quot;:[{&quot;label&quot;:&quot;Minimal&quot;,&quot;placeholder&quot;:&quot;Minimal Tahun pengalaman&quot;,&quot;tableView&quot;:false,&quot;delimiter&quot;:false,&quot;requireDecimal&quot;:false,&quot;key&quot;:&quot;minimalPengalaman&quot;,&quot;type&quot;:&quot;number&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;md&quot;},{&quot;components&quot;:[{&quot;label&quot;:&quot;Maksimal&quot;,&quot;placeholder&quot;:&quot;Maksimal Tahun Pengalaman&quot;,&quot;tableView&quot;:false,&quot;delimiter&quot;:false,&quot;requireDecimal&quot;:false,&quot;validate&quot;:{&quot;max&quot;:11},&quot;key&quot;:&quot;maksimalPengalaman&quot;,&quot;type&quot;:&quot;number&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;md&quot;}],&quot;key&quot;:&quot;columns1&quot;,&quot;type&quot;:&quot;columns&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Columns&quot;}]},{&quot;label&quot;:&quot;Tingkat Jabatan&quot;,&quot;tableView&quot;:false,&quot;defaultValue&quot;:{&quot;pegawaiNonManajemenNonSupervisor&quot;:false,&quot;Pegawai&quot;:false,&quot;LulusanBaru&quot;:false,&quot;Supervisor&quot;:false,&quot;Manajer&quot;:false,&quot;pegawai&quot;:false,&quot;lulusanBaru&quot;:false,&quot;supervisor&quot;:false,&quot;manajer&quot;:false},&quot;values&quot;:[{&quot;label&quot;:&quot;Pegawai (non-manajemen &amp; non-supervisor)&quot;,&quot;value&quot;:&quot;pegawai&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;Lulusan baru/Pengalaman kerja kurang dari 1 tahun&quot;,&quot;value&quot;:&quot;lulusanBaru&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;Supervisor/Koordinator&quot;,&quot;value&quot;:&quot;supervisor&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;Manajer/Asisten Manajer&quot;,&quot;value&quot;:&quot;manajer&quot;,&quot;shortcut&quot;:&quot;&quot;}],&quot;validate&quot;:{&quot;onlyAvailableItems&quot;:false},&quot;key&quot;:&quot;tingkatJabatan&quot;,&quot;type&quot;:&quot;selectboxes&quot;,&quot;input&quot;:true,&quot;inputType&quot;:&quot;checkbox&quot;},{&quot;label&quot;:&quot;Spesialisasi&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (Perangkat Lunak; Perangkat Keras; Jaringan; Database).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;spesialisasi&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Pendidikan&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (SMK; Diploma; Sarjana; Magister).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;pendidikan&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Bidang Studi&quot;,&quot;placeholder&quot;:&quot;Gunakan Semicolon Sebagai Pemisah (Ilmu Komputer; Telekomunikasi; Elektro).&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;bidangStudi&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Terakhir diperbarui&quot;,&quot;optionsLabelPosition&quot;:&quot;right&quot;,&quot;inline&quot;:true,&quot;tableView&quot;:false,&quot;values&quot;:[{&quot;label&quot;:&quot;1 Bulan&quot;,&quot;value&quot;:&quot;30&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;3 Bulan&quot;,&quot;value&quot;:&quot;90&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;6 Bulan&quot;,&quot;value&quot;:&quot;180&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;1 Tahun&quot;,&quot;value&quot;:&quot;365&quot;,&quot;shortcut&quot;:&quot;&quot;}],&quot;key&quot;:&quot;terakhirDiperbarui&quot;,&quot;type&quot;:&quot;radio&quot;,&quot;input&quot;:true},{&quot;label&quot;:&quot;Submit&quot;,&quot;theme&quot;:&quot;info&quot;,&quot;block&quot;:true,&quot;disableOnInvalid&quot;:true,&quot;tableView&quot;:false,&quot;key&quot;:&quot;submit&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;type&quot;:&quot;button&quot;,&quot;input&quot;:true}]" FormTheme="{}{&quot;Activities&quot;:[&quot;FORMS&quot;],&quot;Id&quot;:&quot;100130&quot;,&quot;Name&quot;:&quot;Cerulean&quot;,&quot;BaseCss&quot;:&quot;../../assets/css/themes/cerulean.bootstrap.min.css&quot;,&quot;ImageSrc&quot;:&quot;../../assets/themeicons/cerulean.png&quot;,&quot;OverrideCssUrl&quot;:&quot;&quot;,&quot;UserStyleOverrides&quot;:&quot;&quot;,&quot;Properties&quot;:&quot;&quot;,&quot;IsCustomTheme&quot;:false,&quot;Version&quot;:1,&quot;ThemeVersion&quot;:1}" FormWidth="951" GenerateInputFields="True" sap:VirtualizedContainerService.HintSize="462.4,1664" sap2010:WorkflowViewState.IdRef="FormActivity_1" IsReadOnly="False" MaxColumnsForSchemaGeneration="6" RunDoBlockFirst="False" RunInIsolatedMode="False">
+          <ufa:FormActivity.Body>
+            <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="425.6,1537.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="formString" />
+                  <Variable x:TypeArguments="x:String" Name="jobTitles" />
+                  <Variable x:TypeArguments="x:Object" Name="formJSON" />
+                  <Variable x:TypeArguments="x:String" Name="kewarganegaraan" />
+                  <Variable x:TypeArguments="x:String" Name="preferensiKerja" />
+                  <Variable x:TypeArguments="x:String" Name="industri" />
+                  <Variable x:TypeArguments="x:String" Name="mataUang" />
+                  <Variable x:TypeArguments="x:Int32" Name="minimalGaji" />
+                  <Variable x:TypeArguments="x:Int32" Name="maksimalGaji" />
+                  <Variable x:TypeArguments="x:String" Name="bahasa" />
+                  <Variable x:TypeArguments="x:Int32" Name="minimalPengalaman" />
+                  <Variable x:TypeArguments="x:Int32" Name="maksimalPengalaman" />
+                  <Variable x:TypeArguments="x:String" Name="spesialisasi" />
+                  <Variable x:TypeArguments="x:String" Name="pendidikan" />
+                  <Variable x:TypeArguments="x:String" Name="bidangStudi" />
+                  <Variable x:TypeArguments="x:Int32" Name="terakhirDiperbarui" />
+                  <Variable x:TypeArguments="njl:JObject" Name="outputString" />
+                  <Variable x:TypeArguments="x:String" Name="formOutput" />
+                  <Variable x:TypeArguments="x:Boolean" Name="pegawai" />
+                  <Variable x:TypeArguments="x:Boolean" Name="lulusanBaru" />
+                  <Variable x:TypeArguments="x:Boolean" Name="supervisor" />
+                  <Variable x:TypeArguments="x:Boolean" Name="manajer" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:WriteTextFile DisplayName="Write Text File" FileName="form.json" sap:VirtualizedContainerService.HintSize="384,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[outputForm]" />
+                <ui:ReadTextFile Content="[formString]" DisplayName="Read Text File" FileName="form.json" sap:VirtualizedContainerService.HintSize="384,80.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+                <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="384,60" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[outputString]" JsonString="[formString]" />
+                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="384,629.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                  <ui:MultipleAssign.AssignOperations>
+                    <scg:List x:TypeArguments="ui:AssignOperation" Capacity="32">
+                      <ui:AssignOperation sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="AssignOperation_16">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[jobTitles]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("jobTitles").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_17">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[kewarganegaraan]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("kewarganegaraan").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_18">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[preferensiKerja]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("preferensiKerja").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_19">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[industri]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("industri").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_20">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[mataUang]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("mataUang").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_21">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Int32">[minimalGaji]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Int32">[If(outputString.SelectToken("minimalGaji") Is Nothing,0,Convert.ToInt32(outputString.SelectToken("minimalGaji").ToString))]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_22">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Int32">[maksimalGaji]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Int32">[If(outputString.SelectToken("maksimalGaji") Is Nothing,0,Convert.ToInt32(outputString.SelectToken("maksimalGaji").ToString))]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_23">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[bahasa]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("bahasa").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_24">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Int32">[minimalPengalaman]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Int32">[If(outputString.SelectToken("minimalPengalaman") Is Nothing,0,Convert.ToInt32(outputString.SelectToken("minimalPengalaman").ToString))]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_25">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Int32">[maksimalPengalaman]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Int32">[If(outputString.SelectToken("maksimalPengalaman") Is Nothing,0,Convert.ToInt32(outputString.SelectToken("maksimalPengalaman").ToString))]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_27">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[spesialisasi]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("spesialisasi").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_28">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[pendidikan]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("pendidikan").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_29">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:String">[bidangStudi]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:String">[outputString.SelectToken("bidangStudi").ToString]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_30">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Int32">[terakhirDiperbarui]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Int32">[If(String.IsNullOrEmpty(outputString.SelectToken("terakhirDiperbarui").ToString),0,Convert.ToInt32(outputString.SelectToken("terakhirDiperbarui").ToString))]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="AssignOperation_31">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[pegawai]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Boolean">[Convert.ToBoolean(outputString.SelectToken("tingkatJabatan.pegawai").ToString)]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_32">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[lulusanBaru]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Boolean">[Convert.ToBoolean(outputString.SelectToken("tingkatJabatan.lulusanBaru").ToString)]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_33">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[supervisor]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Boolean">[Convert.ToBoolean(outputString.SelectToken("tingkatJabatan.supervisor").ToString)]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_34">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[manajer]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Boolean">[Convert.ToBoolean(outputString.SelectToken("tingkatJabatan.manajer").ToString)]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                    </scg:List>
+                  </ui:MultipleAssign.AssignOperations>
+                </ui:MultipleAssign>
+                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="384,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_21" Text="[config(&quot;OrchestratorQueueName&quot;).ToString]" />
+                <upaq:AddQueueItemAndGetReference TimeoutMs="{x:Null}" DisplayName="Add Queue Item And Get Reference" sap:VirtualizedContainerService.HintSize="384,277.6" sap2010:WorkflowViewState.IdRef="AddQueueItemAndGetReference_1" Priority="Normal" QueueName="[config(&quot;OrchestratorQueueName&quot;).ToString]">
+                  <upaq:AddQueueItemAndGetReference.ItemInformation>
+                    <InArgument x:TypeArguments="x:String" x:Key="jobTitles">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="jobTitles" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="kewarganegaraan">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="kewarganegaraan" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="preferensiKerja">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="preferensiKerja" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="industri">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="industri" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="mataUang">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="mataUang" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Int32" x:Key="minimalGaji">
+                      <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="minimalGaji" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Int32" x:Key="maksimalGaji">
+                      <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="maksimalGaji" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="bahasa">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="bahasa" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Int32" x:Key="minimalPengalaman">
+                      <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="minimalPengalaman" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Int32" x:Key="maksimalPengalaman">
+                      <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="maksimalPengalaman" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="spesialisasi">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="spesialisasi" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="pendidikan">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="pendidikan" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="bidangStudi">
+                      <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="bidangStudi" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Int32" x:Key="terakhirDiperbarui">
+                      <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="terakhirDiperbarui" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Boolean" x:Key="pegawai">
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="pegawai" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Boolean" x:Key="lulusanBaru">
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="lulusanBaru" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Boolean" x:Key="supervisor">
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="supervisor" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:Boolean" x:Key="manajer">
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="manajer" />
+                    </InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="platform">
+                      <Literal x:TypeArguments="x:String">jobstreet</Literal>
+                    </InArgument>
+                  </upaq:AddQueueItemAndGetReference.ItemInformation>
+                </upaq:AddQueueItemAndGetReference>
+              </Sequence>
+            </ActivityAction>
+          </ufa:FormActivity.Body>
+          <ufa:FormActivity.DelayBody>
+            <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
+              <Delay Duration="00:00:00.2500000" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            </ActivityAction>
+          </ufa:FormActivity.DelayBody>
+          <ufa:FormActivity.FormFieldsCollection>
+            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+          </ufa:FormActivity.FormFieldsCollection>
+        </ufa:FormActivity>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="465.6,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <Throw Exception="[New SystemException(&quot;Failed to retrieve form values&quot;)]" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="Throw_1" />
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+  </Sequence>
+</Activity>

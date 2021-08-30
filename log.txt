@@ -574,3 +574,83 @@ Locations:
 Actively Looking for a jobs: True
 Passively Looking for a jobs: True
 ----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/27/2021 14:26:08
+Job Titles: Devops;Animator
+Job Functions: 
+Minimum: 0 Years, 2 Months
+Maximum: 0 Years,  10 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/27/2021 14:30:01
+Job Titles: Devops
+Job Functions: 
+Minimum: 2 Years, 0 Months
+Maximum: 4 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/28/2021 16:50:36
+Job Titles: devops
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/28/2021 16:58:02
+Job Titles: Devops
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
+----------------------------------------------------------
+Date: 08/28/2021 17:14:21
+Job Titles: Devops
+Job Functions: 
+Minimum: 0 Years, 0 Months
+Maximum: 0 Years,  0 Months
+Education (Minimum): -1
+Education (Maximum): -1
+Year of Graduation (Minimum): 0
+Year of Graduation (Maximum): 0
+Skills: 
+Last online Activity: 0
+Locations: 
+Actively Looking for a jobs: True
+Passively Looking for a jobs: True
+----------------------------------------------------------
